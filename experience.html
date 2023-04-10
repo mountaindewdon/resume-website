@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=PT+Sans&family=Roboto:ital,wght@0,100;0,500;1,500&display=swap" rel="stylesheet">
+    <title>Resume</title>
+
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#" class="logo">RESUME</a>
+            <div class="nav-links">
+                <ul>
+                    <li ><a href="index.html">Home</a></li>
+                    <li ><a href="education.html">Education</a></li>
+                    <li class="active"><a href="experience.html">Experience</a></li>
+                    <li ><a href="skills.html">Skills</a></li>
+                </ul>
+            </div>
+            <img src="burger.jpg" alt="menu hamburger" class="menu-hamburger">
+            
+            
+        </div>
+        
+    </header>
+
+    <div class="container1">
+        <div class="home-text">
+                <h1 >Experience</h1>
+        <div class="exp-content">
+            <p><br>2019-2020</p>
+            <h2>Work Immersion</h2>
+            <h3>Alaminos Municipal Engineering Office</h3>
+            <p>D. Fandino St. Brgy. 3 Alaminos, Laguna <br> Philippines</p>
+
+            <p><br><br>2022-2023</p>
+            <h2>Part of Creating an</h2>
+            <h3>Eccomerse Website</h3>
+            
+        </div>
+        
+            
+        </div>
+    </div>
+
+</body>
+<script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+</script>
